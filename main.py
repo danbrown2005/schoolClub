@@ -13,7 +13,7 @@ def main():
     output_sorted_dict(students)
 
 
-def return_grade(student_grade, student_name, alert=False):
+def return_grade(student_grade, student_name, alert=False) -> str:
     if student_grade < 40:
         return "Fail"
     elif student_grade < 51:
